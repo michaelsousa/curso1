@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stilo' href='style.css'>
+    <title>Jo-Ken-Po</title>
+</head>
+
+<body>
+    <h1>Jo-Ken-Poxa:</h1>
+    <h2>jOgAdOr:</h2>
+    <img src="pedra.png" alt="pedra">
+    <img src="papel.png" alt="papel">
+    <img src="tesoura.png" alt="tesoura">
+    <form name="jokenpo">
+        <input type="radio" name="Grupo" id="pedra"> Pedra
+        <input type="radio" name="Grupo" id="papel"> Papel
+        <input type="radio" name="Grupo" id="tesoura"> Tesoura
+        <p>
+            <input type="button" value="JOGAR!" onclick="jogar()">
+            <input type="reset" value="RESET" onclick="resetar()">
+        </p>
+    </form>
+    <hr>
+    <h2>CoMpUtAdOr:</h2>
+    <img src="pc.png" alt="pc" id=comp>
+    <hr>
+    <h3 id ="resultado"></h3>
+    <script src="jokenpo.js"></script>
+</body>
+
+</html>
