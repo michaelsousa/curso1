@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validação Simples com JS</title>
+</head>
+
+<body>
+    <form name='frmCadastro' action='cadastro.php' 
+    method= 'post' onsubmit="return validacao()">
+        <input type="text" name="txtNome" placeholder="Nome"><br>
+        <input type="text" name="txtCPF" placeholder="CPF"><br>
+        <label>Sexo</label><br>
+        <input type="radio" name="sexo" value="M" checked> Masc 
+        <input type="radio" name="sexo" value="F"> Fem. <br>
+        <textarea name="txtPerfil" rows='10' cols='50' placeholder="Min 20 caract."></textarea><br>
+        <input type="submit" value="Salvar">
+
+    </form>
+    <script src="valida.js"></script>
+</body>
+
+</html>
