@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif
+}
+
+.layout {
+    background-image: url("imagens/background.jpg");
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    background-attachment: fixed;
+}
+
+.layout p {
+    text-align: center;
+    color: azure;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.modulo {
+    padding: 150px 0px 150px 0px;
+    margin: 0 auto;
+    max-width: 1112px;
+    text-align: center;
+}
+
+footer{
+    background-color:#8b0000;
+    padding: 70px;
+    text-align: center;
+    color:#ffffff;  
+}
+
+#top{
+    position: fixed;
+    cursor: pointer;
+    right: 15px;
+    bottom: 15px;
+}
+
+.destaque li {
+    float: left;
+    padding: 10px
+}
+
+.destaque{
+    list-style: none;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+ul li img{
+    border: #a1a1a1 1px solid;
+    cursor: pointer;
+}
+
+.header{
+    height: 128px;
+    max-width: 1122px;
+    margin: 0;
+}
+.logo{
+    height: 96px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.Hamburguer{
+    display: none;
+}
+
+.Menu{
+    float:right;
+    padding-top: 52px;
+}
+.Menu ul {
+    list-style: none;
+}
+.Menu ul li {
+    float: left;
+    padding: 3px;
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color:#000000;
+}
+.Menu ul li a:hover{
+    color:#ff0000;
+    transition: all 0.5s
+}
