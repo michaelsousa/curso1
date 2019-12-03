@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 .layout {
@@ -26,7 +26,8 @@ body{
 .modulo {
     padding: 150px 0px 150px 0px;
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 1112px;
+    text-align: center;
 }
 
 footer{
@@ -41,4 +42,120 @@ footer{
     cursor: pointer;
     right: 15px;
     bottom: 15px;
+}
+
+.destaque li {
+    float: left;
+    padding: 10px
+}
+
+.destaque{
+    list-style: none;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+ul li img{
+    border: #a1a1a1 1px solid;
+    cursor: pointer;
+}
+
+header{
+    height: 128px;
+    max-width: 1122px;
+    margin: 0;
+}
+.logo{
+    height: 96px;
+    padding: 15px;
+    float: left;
+ 
+}
+
+.logo img {
+    height: 100%;
+}
+
+.Hamburguer{
+    /*display: none;*/
+    background-color: #888888;
+    text-decoration: none;
+    font-size: 2em;
+    padding:0px 8px 0px 8px;
+    margin: 0px 0px 0px 0px;
+    border-radius:5px;
+    color:#ffff;
+    
+}
+
+.Menu{
+    float:right;
+    padding-top: 52px;
+}
+.Menu ul {
+    list-style: none;
+}
+.Menu ul li {
+    float: left;
+    padding: 3px;
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color:#000000;
+}
+.Menu ul li a:hover{
+    color:#ff0000;
+    transition: all 0.5s
+}
+
+
+
+@media (max-width: 480px){
+    header{
+        height: 85px;
+
+    }
+
+    .logo{
+        height: 64px;
+        padding:12px;
+    }
+
+    .Hamburguer{
+        display:block;
+        float: right;
+        margin: 22px;
+    }
+    .Menu{
+        float: left;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .Menu ul{
+        background-color: #ffffff;
+        display: none; /* JQuery */
+
+    }
+    
+    .Menu ul li{
+        float: none;
+    }
+    .Menu ul li a{
+        padding: 15px;
+        display:block;
+    }
+    
+    .destaque li {
+        float: none;
+    }
+}
+
+
+@media (min-width: 600px){
+    .Hamburguer{
+        display: none;
+    }
 }

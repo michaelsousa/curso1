@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validação de formularios com JQuery</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+</head>
+<body>
+        <form id='frmCadastro' method="post">
+            <p><input type="text" name="nome" id="nome" placeholder="Nome"></p>
+            <p><input type="text" name="email" id="email" placeholder="E-mail"></p>
+            <p><input type="password" name="senha" id="senha"  placeholder="Senha"></p>
+            <p><input type="password" name="senhaConfirmacao" id="senhaConfirmacao" placeholder="Confirme e a senha"></p>
+            <p>Termos de uso <input type="checkbox" name='termos' id='termos'> </p>           
+            <button type="Submit"> Cadastrar </button>
+        </form>
+
+        <script src="validacao2.js"></script>
+</body>
+</html>
